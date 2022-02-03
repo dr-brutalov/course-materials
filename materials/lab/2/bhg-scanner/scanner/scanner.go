@@ -21,7 +21,7 @@ func worker(ports, results chan int) {
 		address := fmt.Sprintf("scanme.nmap.org:%d", p)
 		conn, err := net.DialTimeout("tcp", address, dur)
 		if err != nil {
-			results <- 0
+			results <- -p
 			continue
 		}
 		conn.Close()
@@ -55,10 +55,11 @@ func PortScanner(numPorts int) (int, int) {
 
 	for i := 0; i < 1024; i++ {
 		port := <-results
-		if port != 0 {
+		if port > 0 {
 			openports = append(openports, port)
 		} else {
-			closedports = append(closedports, port)
+			negPort := port * (-1)
+			closedports = append(closedports, negPort)
 		}
 	}
 
