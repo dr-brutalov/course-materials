@@ -1,9 +1,19 @@
 // bhg-scanner/scanner.go modified from Black Hat Go > CH2 > tcp-scanner-final > main.go
 // Code : https://github.com/blackhat-go/bhg/blob/c27347f6f9019c8911547d6fc912aa1171e6c362/ch-2/tcp-scanner-final/main.go
 // License: {$RepoRoot}/materials/BHG-LICENSE
-// Useage:
-// A general use port scanner, yo.
-
+/*
+ * ************************************** Useage: **************************************
+ * A general use port scanner, yo. The scanner outputs the number of open ports, total number of ports scanned, and CSV files,
+ * one for the open ports and one for the closed ports
+ *
+ * The input for the PortScanner function are as follows:
+ * `portsToScan` is an array with two elements, the first is the starting port and the second is the ending port
+ * For example, this should be input as `[2]int{1, 1024}` if you want to scan ports 1 ... 1024 (inclusive of the end points)
+ * `numPorts` is an integer value that indicates how many ports a worker should be assigned.
+ * For example, if you want each worker to have 100 ports, simply pass in `100`
+ * A full scanner call would then be: `PortScanner([2]int{1, 1024}, 100)` to scan ports 1 ... 1024 with each worker having 100 ports.
+ * For a quick sample, from the `lab/2/bhg-scanner/main` directory run `go run main.go`.
+ */
 package scanner
 
 import (
@@ -33,16 +43,12 @@ func worker(ports, results chan int) {
 	}
 }
 
-// for Part 5 - consider
-// easy: taking in a variable for the ports to scan (int? slice? ); a target address (string?)?
-// med: easy + return  complex data structure(s?) (maps or slices) containing the ports.
-// hard: restructuring code - consider modification to class/object
-// No matter what you do, modify scanner_test.go to align; note the single test currently fails
-// Returns the number of open ports and the total number of ports scanned.
-func PortScanner(numPorts int) (int, int) {
+func PortScanner(portsToScan [2]int, numPorts int) (int, int) {
 
 	var openports []int   // notice the capitalization here. access limited!
 	var closedports []int // var for tracking the closed ports
+
+	//numPorts := portsToScan[1] - portsToScan[0] + 1
 
 	ports := make(chan int, numPorts)
 	results := make(chan int)
@@ -52,12 +58,12 @@ func PortScanner(numPorts int) (int, int) {
 	}
 
 	go func() {
-		for i := 1; i <= 1024; i++ {
+		for i := portsToScan[0]; i <= portsToScan[1]; i++ {
 			ports <- i
 		}
 	}()
 
-	for i := 0; i < 1024; i++ {
+	for i := portsToScan[0]; i <= portsToScan[1]; i++ {
 		port := <-results
 		if port > 0 {
 			openports = append(openports, port)
