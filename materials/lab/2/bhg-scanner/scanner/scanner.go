@@ -7,9 +7,13 @@
 package scanner
 
 import (
+	"encoding/csv"
 	"fmt"
+	"log"
 	"net"
+	"os"
 	"sort"
+	"strings"
 	"time"
 )
 
@@ -68,46 +72,53 @@ func PortScanner(numPorts int) (int, int) {
 	sort.Ints(openports)
 	sort.Ints(closedports)
 
-	//TODO 5 : Enhance the output for easier consumption, include closed ports
-
 	for _, port := range openports {
 		fmt.Printf("%d open\n", port)
 	}
-	//portList := append(openports, closedports...)
+	/*
+		* Uncomment the two lines below if a full list of the ports scanned is desirable.
+		portList := append(openports, closedports...)
+		writeToCSV(portList)
+	*/
 
-	//writeToCSV(portList)
-
-	totalPorts := len(openports) + len(closedports) // TODO 6 : Return total number of ports scanned (number open, number closed);
+	totalPorts := len(openports) + len(closedports)
 	numOpenPorts := len(openports)
-	//response := fmt.Sprintf("We successfully scanned %d ports!", totalPorts)
 
-	return numOpenPorts, totalPorts //response
-	//you'll have to modify the function parameter list in the defintion and the values in the scanner_test
+	writeToCSV("openPortList", openports)
+	writeToCSV("closedPortList", closedports)
+
+	return numOpenPorts, totalPorts
 }
 
 /*
-// A helper function to reduce repetitive error code logic (thanks to Andey for the inspiration
-// and https://golangcode.com/write-data-to-a-csv-file/ for a simple extension (previous version panics w/out a msg.)).
+ * A helper function to reduce repetitive error code logic (thanks to Andey for the inspiration
+ * and https://golangcode.com/write-data-to-a-csv-file/ for a simple extension (previous version panics w/out a msg.)).
+ */
 func checkErr(message string, err error) {
 	if err != nil {
 		log.Fatal(message, err)
 	}
 }
 
-// A function for writing to a .csv file, breaking this piece out to help keep the PortScanner function readable
-// I used this source as a reference for the function: https://golangcode.com/write-data-to-a-csv-file/
-
+/*
+ * A function for writing to a .csv file, breaking this piece out to help keep the PortScanner function readable
+ * I used this source as a reference for the function: https://golangcode.com/write-data-to-a-csv-file/
+ * and this source for fixing the typing issues (the ints need to be strings for the Writer function).
+ */
 func writeToCSV(fileName string, portList []int) {
-	file, err := os.Create("fileName" + ".csv")
+	// Create a new CSV file with the supplied fileName and the appropriate file extension
+	file, err := os.Create(fileName + ".csv")
+	// Check to make sure the file was created
 	checkErr("Cannot create file, yo.", err)
+	// Don't close the file until we are finished writing to it
 	defer file.Close()
 
+	// Convert the slice of ints to strings
+	stringPorts := strings.Fields(strings.Trim(fmt.Sprint(portList), "[]"))
+	// Set up a writer for the CSV file
 	writer := csv.NewWriter(file)
+	// Write the stringified ports to the file
+	writer.Write(stringPorts)
+	// Don't flush the writers contents until we are done
 	defer writer.Flush()
-
-	for _, value := range portList {
-		err := writer.Write(value)
-		checkErr("Cannot write to file, yo.", err)
-	}
 }
-*/
