@@ -22,6 +22,7 @@ import (
 	"log"
 	"net"
 	"os"
+	"path"
 	"sort"
 	"strings"
 	"time"
@@ -113,7 +114,8 @@ func checkErr(message string, err error) {
  */
 func writeToCSV(fileName string, portList []int) {
 	// Create a new CSV file with the supplied fileName and the appropriate file extension
-	file, err := os.Create(fileName + ".csv")
+	filePath := path.Join("results", fileName+".csv")
+	file, err := os.Create(filePath)
 	// Check to make sure the file was created
 	checkErr("Cannot create file, yo.", err)
 	// Don't close the file until we are finished writing to it
