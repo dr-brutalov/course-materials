@@ -1,0 +1,405 @@
+Query Credits: 200000
+Scan Credits:  65536
+
+Host Data Dump
+==== start  174.48.20.208 ====
+{"os":"","timestamp":"2022-02-16T15:38:00.446190","isp":"Comcast Cable Communications, LLC","asn":"AS7922","hostnames":["c-174-48-20-208.hsd1.fl.comcast.net"],"location":{"city":"Royal Palm Beach","region_code":"FL","area_code":0,"longitude":-80.2306,"country_code3":"","country_name":"United States","postal_code":"","dma_code":0,"country_code":"US","latitude":26.7084},"ip":2922386640,"domains":["comcast.net"],"org":"Comcast Cable Communications, Inc.","data":"Left 4 Dead 2 Server\nName: The Dinky Society\nPlayers: 0/12\nOperating System: Windows\nMap: c3m1_plankcountry\nVersion: 2.2.2.3\n","port":27015,"ip_str":"174.48.20.208"}
+==== end  174.48.20.208 ====
+==== start  46.174.52.37 ====
+{"os":"","timestamp":"2022-02-16T14:58:48.802766","isp":"RS-Media LLC","asn":"AS197309","hostnames":["Host-46-174-52-37.rs-media.ru"],"location":{"city":"Moscow","region_code":"MOW","area_code":0,"longitude":37.61556,"country_code3":"","country_name":"Russian Federation","postal_code":"","dma_code":0,"country_code":"RU","latitude":55.75222},"ip":783168549,"domains":["rs-media.ru"],"org":"RS-Media LLC","data":"Left 4 Dead 2 Server\nName: SyncZone #4 [coop16] (15/20)\nPlayers: 15/20\nOperating System: Linux\nMap: c3m1_plankcountry\nVersion: 2.2.2.2\n","port":27015,"ip_str":"46.174.52.37"}
+==== end  46.174.52.37 ====
+==== start  1.15.60.236 ====
+{"os":"","timestamp":"2022-02-16T13:47:42.469561","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Guangzhou","region_code":"GD","area_code":0,"longitude":113.25,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":23.11667},"ip":17775852,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: 2#多人开心合作服\nPlayers: 0/16\nOperating System: Windows\nMap: bsas_m1_barrios\nVersion: 2.1.5.5\n","port":27016,"ip_str":"1.15.60.236"}
+==== end  1.15.60.236 ====
+==== start  212.57.136.73 ====
+{"os":"","timestamp":"2022-02-16T13:14:50.212784","isp":"PJSC Rostelecom","asn":"AS12389","hostnames":[],"location":{"city":"Chelyabinsk","region_code":"CHE","area_code":0,"longitude":61.42915,"country_code3":"","country_name":"Russian Federation","postal_code":"","dma_code":0,"country_code":"RU","latitude":55.15402},"ip":3560540233,"domains":[],"org":"Joint Stock Commercial Bank CHELINDBANK","data":"Left 4 Dead 2 Server\nName: First Shift's L4D2 Server\nPlayers: 0/4\nOperating System: Linux\nMap: c1m1_hotel\nVersion: 2.2.1.1\n","port":27015,"ip_str":"212.57.136.73"}
+==== end  212.57.136.73 ====
+==== start  168.226.217.15 ====
+{"os":"","timestamp":"2022-02-16T04:41:55.724549","isp":"Telefonica de Argentina","asn":"AS22927","hostnames":[],"location":{"city":"Buenos Aires","region_code":"C","area_code":0,"longitude":-58.37723,"country_code3":"","country_name":"Argentina","postal_code":"","dma_code":0,"country_code":"AR","latitude":-34.61315},"ip":2833438991,"domains":[],"org":"Telefonica de Argentina","data":"Left 4 Dead 2 Server\nName: MisheyComp Arg #2 | BlackServers.com.ar\nPlayers: 0/16\nOperating System: Linux\nMap: c5m1_waterfront\nVersion: 2.2.2.2\n","port":27016,"ip_str":"168.226.217.15"}
+==== end  168.226.217.15 ====
+==== start  43.239.136.72 ====
+{"os":"","timestamp":"2022-02-15T16:40:08.190407","isp":"i3D.net B.V","asn":"AS49544","hostnames":["hosted-by.i3d.net"],"location":{"city":"Hong Kong","region_code":"","area_code":0,"longitude":114.17469,"country_code3":"","country_name":"Hong Kong","postal_code":"","dma_code":0,"country_code":"HK","latitude":22.27832},"ip":737118280,"domains":["i3d.net"],"org":"i3D.net B.V.","data":"Left 4 Dead 2 Server\nName: [CSS] Hong Kong\nPlayers: 0/6\nOperating System: Windows\nMap: c1m4_atrium\nVersion: 2.2.2.3\n","port":27016,"ip_str":"43.239.136.72"}
+==== end  43.239.136.72 ====
+==== start  217.18.240.134 ====
+{"os":"","timestamp":"2022-02-15T16:21:49.563437","isp":"A1 Bulgaria EAD","asn":"AS13124","hostnames":["unknown.interbgc.com"],"location":{"city":"Sofia","region_code":"22","area_code":0,"longitude":23.32415,"country_code3":"","country_name":"Bulgaria","postal_code":"","dma_code":0,"country_code":"BG","latitude":42.69751},"ip":3641897094,"domains":["interbgc.com"],"org":"A1 Bulgaria EAD","data":"Left 4 Dead 2 Server\nName: Lord Soft Left 4 Dead 2 - 4 Server\nPlayers: 0/4\nOperating System: Linux\nMap: c5m1_waterfront\nVersion: 2.1.5.5\n","port":27016,"ip_str":"217.18.240.134"}
+==== end  217.18.240.134 ====
+==== start  42.192.231.76 ====
+{"os":"","timestamp":"2022-02-15T13:34:07.967395","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shanghai","region_code":"SH","area_code":0,"longitude":121.45806,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":31.22222},"ip":717285196,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: ﻿风花雪夜技能对抗测试服 群:105745127\nPlayers: 3/20\nOperating System: Windows\nMap: c1m1_hotel\nVersion: 2.1.5.5\n","port":27015,"ip_str":"42.192.231.76"}
+==== end  42.192.231.76 ====
+==== start  45.79.196.241 ====
+{"os":"","timestamp":"2022-02-15T12:29:37.979933","isp":"Linode, LLC","asn":"AS63949","hostnames":["li1295-241.members.linode.com"],"location":{"city":"Atlanta","region_code":"GA","area_code":0,"longitude":-84.38798,"country_code3":"","country_name":"United States","postal_code":"","dma_code":0,"country_code":"US","latitude":33.749},"ip":760202481,"domains":["linode.com"],"org":"Linode","data":"Left 4 Dead 2 Server\nName: The Great Regression\nPlayers: 0/8\nOperating System: Linux\nMap: c1m1_hotel\nVersion: 2.2.1.2\n","port":27015,"ip_str":"45.79.196.241"}
+==== end  45.79.196.241 ====
+==== start  213.5.65.17 ====
+{"os":"","timestamp":"2022-02-15T12:21:08.217341","isp":"AltusHost B.V.","asn":"AS51430","hostnames":["nld-net-ip.as51430.net"],"location":{"city":"Soest","region_code":"UT","area_code":0,"longitude":5.29167,"country_code3":"","country_name":"Netherlands","postal_code":"","dma_code":0,"country_code":"NL","latitude":52.17333},"ip":3573891345,"domains":["as51430.net"],"org":"AltusHost B.V.","data":"Left 4 Dead 2 Server\nName: Left 4 Dead 2\nPlayers: 0/4\nOperating System: Linux\nMap: c1m1_hotel\nVersion: 2.1.5.5\n","port":27015,"ip_str":"213.5.65.17"}
+==== end  213.5.65.17 ====
+==== start  108.61.254.188 ====
+{"os":"","timestamp":"2022-02-15T09:41:42.973858","isp":"The Constant Company, LLC","asn":"AS20473","hostnames":["108.61.254.188.choopa.net"],"location":{"city":"Amsterdam","region_code":"NH","area_code":0,"longitude":4.88969,"country_code3":"","country_name":"Netherlands","postal_code":"","dma_code":0,"country_code":"NL","latitude":52.37403},"ip":1816002236,"domains":["choopa.net"],"org":"GameServers.com","data":"Left 4 Dead 2 Server\nName: Another Gameservers.com L4D2 server is born\nPlayers: 0/4\nOperating System: Linux\nMap: c1m1_hotel\nVersion: 2.1.2.2\n","port":27015,"ip_str":"108.61.254.188"}
+==== end  108.61.254.188 ====
+==== start  148.251.130.211 ====
+{"os":"","timestamp":"2022-02-15T06:59:26.813093","isp":"Hetzner Online GmbH","asn":"AS24940","hostnames":["static.211.130.251.148.clients.your-server.de"],"location":{"city":"Falkenstein","region_code":"SN","area_code":0,"longitude":12.37129,"country_code3":"","country_name":"Germany","postal_code":"","dma_code":0,"country_code":"DE","latitude":50.47788},"ip":2499510995,"domains":["your-server.de"],"org":"Hetzner Online GmbH","data":"Left 4 Dead 2 Server\nName: ZOZO.GG | BLOOD FACTORY #5 (GER)\nPlayers: 0/21\nOperating System: Linux\nMap: c13m1_alpinecreek\nVersion: 2.2.2.2\n","port":27015,"ip_str":"148.251.130.211"}
+==== end  148.251.130.211 ====
+==== start  5.189.124.206 ====
+{"os":"","timestamp":"2022-02-15T01:23:52.717443","isp":"LLC KomTehCentr","asn":"AS12668","hostnames":["5.189.124.206-FTTB.planeta.tc"],"location":{"city":"Kamensk-Ural’skiy","region_code":"SVE","area_code":0,"longitude":61.9329,"country_code3":"","country_name":"Russian Federation","postal_code":"","dma_code":0,"country_code":"RU","latitude":56.4185},"ip":96304334,"domains":["planeta.tc"],"org":"LLC KomTehCentr","data":"Left 4 Dead 2 Server\nName: ZOZO.GG | EXTREME COOP 4+ (EKB)\nPlayers: 7/17\nOperating System: Linux\nMap: c4m2_sugarmill_a\nVersion: 2.2.2.3\n","port":27016,"ip_str":"5.189.124.206"}
+==== end  5.189.124.206 ====
+==== start  82.220.9.54 ====
+{"os":"","timestamp":"2022-02-14T19:46:05.309548","isp":"BSE Software GmbH","asn":"AS9044","hostnames":[],"location":{"city":"Zürich","region_code":"ZH","area_code":0,"longitude":8.55,"country_code3":"","country_name":"Switzerland","postal_code":"","dma_code":0,"country_code":"CH","latitude":47.36667},"ip":1390151990,"domains":[],"org":"Argus Basel","data":"Left 4 Dead 2 Server\nName: -==DoG==- Death or Glory \u003e\u003e\u003eL4D2 Server 2\u003c\u003c\u003c\nPlayers: 0/10\nOperating System: Linux\nMap: c2m1_highway\nVersion: 2.2.1.2\n","port":27015,"ip_str":"82.220.9.54"}
+==== end  82.220.9.54 ====
+==== start  114.67.202.92 ====
+{"os":"","timestamp":"2022-02-13T23:38:33.189269","isp":"CHINANET Guangdong province network","asn":"AS58466","hostnames":[],"location":{"city":"Shenzhen","region_code":"GD","area_code":0,"longitude":114.0683,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":22.54554},"ip":1917045340,"domains":[],"org":"Beijing Jingdong 360 Degree E-commerce Co., Ltd.","data":"Left 4 Dead 2 Server\nName: Qs #Dedicated Server#\nPlayers: 0/6\nOperating System: Linux\nMap: c1m4_atrium\nVersion: 2.1.5.5\n","port":27015,"ip_str":"114.67.202.92"}
+==== end  114.67.202.92 ====
+==== start  68.232.163.190 ====
+{"os":"","timestamp":"2022-02-13T19:38:17.938804","isp":"The Constant Company, LLC","asn":"AS20473","hostnames":["68.232.163.190.choopa.net"],"location":{"city":"Dallas","region_code":"TX","area_code":0,"longitude":-96.80667,"country_code3":"","country_name":"United States","postal_code":"","dma_code":0,"country_code":"US","latitude":32.78306},"ip":1156096958,"domains":["choopa.net"],"org":"GameServers.com","data":"Left 4 Dead 2 Server\nName: -:S-Mart:- [A :tUSn: Server]\nPlayers: 0/4\nOperating System: Linux\nMap: c1m1_hotel\nVersion: 2.1.5.5\n","port":27015,"ip_str":"68.232.163.190"}
+==== end  68.232.163.190 ====
+==== start  42.194.138.146 ====
+{"os":"","timestamp":"2022-02-13T17:07:09.993984","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Guangzhou","region_code":"GD","area_code":0,"longitude":113.25,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":23.11667},"ip":717392530,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: Left 4 Dead 2\nPlayers: 0/18\nOperating System: Windows\nMap: c2m1_highway\nVersion: 2.2.2.2\n","port":27015,"ip_str":"42.194.138.146"}
+==== end  42.194.138.146 ====
+==== start  101.43.25.126 ====
+{"os":"","timestamp":"2022-02-13T05:29:55.260417","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shenzhen","region_code":"GD","area_code":0,"longitude":114.0683,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":22.54554},"ip":1697323390,"domains":[],"org":"Tencent Cloud Computing (Beijing) Co., Ltd","data":"Left 4 Dead 2 Server\nName: Left 4 Dead 2\nPlayers: 0/4\nOperating System: Windows\nMap: c2m1_highway\nVersion: 2.1.5.5\n","port":27015,"ip_str":"101.43.25.126"}
+==== end  101.43.25.126 ====
+==== start  178.63.178.253 ====
+{"os":"","timestamp":"2022-02-13T04:01:04.028779","isp":"Hetzner Online GmbH","asn":"AS24940","hostnames":["static.253.178.63.178.clients.your-server.de"],"location":{"city":"Chemnitz","region_code":"SN","area_code":0,"longitude":12.92922,"country_code3":"","country_name":"Germany","postal_code":"","dma_code":0,"country_code":"DE","latitude":50.8357},"ip":2990519037,"domains":["your-server.de"],"org":"Hetzner Online GmbH","data":"Left 4 Dead 2 Server\nName: Your L4D2 Server Name Here\nPlayers: 0/4\nOperating System: Linux\nMap: c2m1_highway\nVersion: 2.1.5.5\n","port":27015,"ip_str":"178.63.178.253"}
+==== end  178.63.178.253 ====
+==== start  129.204.217.75 ====
+{"os":"","timestamp":"2022-02-13T03:30:34.456128","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shenzhen","region_code":"GD","area_code":0,"longitude":114.0683,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":22.54554},"ip":2177685835,"domains":[],"org":"Tencent Cloud Computing (Beijing) Co., Ltd","data":"Left 4 Dead 2 Server\nName: 小宋先森の专家14特\nPlayers: 0/5\nOperating System: Windows\nMap: c2m1_highway\nVersion: 2.1.2.1\n","port":27015,"ip_str":"129.204.217.75"}
+==== end  129.204.217.75 ====
+==== start  119.45.129.194 ====
+{"os":"","timestamp":"2022-02-13T00:30:14.986902","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shenzhen","region_code":"GD","area_code":0,"longitude":114.0683,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":22.54554},"ip":1999471042,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: You \u0026 me\nPlayers: 0/12\nOperating System: Windows\nMap: toonrun1\nVersion: 2.2.2.2\n","port":27015,"ip_str":"119.45.129.194"}
+==== end  119.45.129.194 ====
+==== start  165.227.114.227 ====
+{"os":"","timestamp":"2022-02-12T21:46:39.047950","isp":"DigitalOcean, LLC","asn":"AS14061","hostnames":[],"location":{"city":"Clifton","region_code":"NJ","area_code":0,"longitude":-74.1377,"country_code3":"","country_name":"United States","postal_code":"","dma_code":0,"country_code":"US","latitude":40.8344},"ip":2783146723,"domains":[],"org":"DigitalOcean, LLC","data":"Left 4 Dead 2 Server\nName: 100 Tick Auto Bunnyhop\nPlayers: 0/4\nOperating System: Linux\nMap: c6m1_riverbank\nVersion: 2.2.1.2\n","port":27015,"ip_str":"165.227.114.227"}
+==== end  165.227.114.227 ====
+==== start  1.15.118.229 ====
+{"os":"","timestamp":"2022-02-12T15:36:49.760034","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":17790693,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: claude's server\nPlayers: 0/8\nOperating System: Linux\nMap: wfp1_track\nVersion: 2.2.1.2\n","port":27015,"ip_str":"1.15.118.229"}
+==== end  1.15.118.229 ====
+==== start  98.244.3.8 ====
+{"os":"","timestamp":"2022-02-11T23:03:52.207739","isp":"Comcast Cable Communications, LLC","asn":"AS7922","hostnames":["c-98-244-3-8.hsd1.ca.comcast.net"],"location":{"city":"Sacramento","region_code":"CA","area_code":0,"longitude":-121.4944,"country_code3":"","country_name":"United States","postal_code":"","dma_code":0,"country_code":"US","latitude":38.58157},"ip":1660158728,"domains":["comcast.net"],"org":"Comcast Cable Communications, Inc.","data":"Left 4 Dead 2 Server\nName: Lukey's Never Left4Dead\nPlayers: 0/8\nOperating System: Windows\nMap: c1m1_hotel\nVersion: 2.2.2.3\n","port":27015,"ip_str":"98.244.3.8"}
+==== end  98.244.3.8 ====
+==== start  101.33.230.125 ====
+{"os":"","timestamp":"2022-02-11T21:50:13.472800","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shenzhen","region_code":"GD","area_code":0,"longitude":114.0683,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":22.54554},"ip":1696720509,"domains":[],"org":"Tencent Cloud Computing (Beijing) Co., Ltd","data":"Left 4 Dead 2 Server\nName: ♀修罗の地狱♀[6特16秒]\nPlayers: 0/4\nOperating System: Linux\nMap: c2m1_highway\nVersion: 2.2.2.2\n","port":27016,"ip_str":"101.33.230.125"}
+==== end  101.33.230.125 ====
+==== start  113.219.200.91 ====
+{"os":"","timestamp":"2022-02-11T17:09:10.418418","isp":"CT-HuNan-Changsha-IDC","asn":"AS63835","hostnames":[],"location":{"city":"Zhongshan","region_code":"GD","area_code":0,"longitude":113.37912,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":22.52306},"ip":1910229083,"domains":[],"org":"CHINANET HUNAN PROVINCE NETWORK","data":"Left 4 Dead 2 Server\nName: imzgg's L4D2 Gamegroup Server\nPlayers: 0/4\nOperating System: Linux\nMap: c1m1_hotel\nVersion: 2.1.5.5\n","port":27015,"ip_str":"113.219.200.91"}
+==== end  113.219.200.91 ====
+==== start  37.230.210.58 ====
+{"os":"","timestamp":"2022-02-11T16:48:50.458493","isp":"RS-Media LLC","asn":"AS197309","hostnames":["Host-37-230-210-58.rs-media.ru"],"location":{"city":"Moscow","region_code":"MOW","area_code":0,"longitude":37.61556,"country_code3":"","country_name":"Russian Federation","postal_code":"","dma_code":0,"country_code":"RU","latitude":55.75222},"ip":635884090,"domains":["rs-media.ru"],"org":"RS-Media LLC","data":"Left 4 Dead 2 Server\nName: Ru:Versus 13vs13\nPlayers: 20/27\nOperating System: Linux\nMap: c2m2_fairgrounds\nVersion: 2.2.2.3\n","port":27015,"ip_str":"37.230.210.58"}
+==== end  37.230.210.58 ====
+==== start  37.230.210.58 ====
+{"os":"","timestamp":"2022-02-11T16:19:57.576918","isp":"RS-Media LLC","asn":"AS197309","hostnames":["Host-37-230-210-58.rs-media.ru"],"location":{"city":"Moscow","region_code":"MOW","area_code":0,"longitude":37.61556,"country_code3":"","country_name":"Russian Federation","postal_code":"","dma_code":0,"country_code":"RU","latitude":55.75222},"ip":635884090,"domains":["rs-media.ru"],"org":"RS-Media LLC","data":"Left 4 Dead 2 Server\nName: Ru:Coop-24 Equilibrium\nPlayers: 10/24\nOperating System: Linux\nMap: c8m3_sewers\nVersion: 2.2.2.3\n","port":27016,"ip_str":"37.230.210.58"}
+==== end  37.230.210.58 ====
+==== start  49.233.117.246 ====
+{"os":"","timestamp":"2022-02-11T05:06:40.504295","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shenzhen","region_code":"GD","area_code":0,"longitude":114.0683,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":22.54554},"ip":837383670,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: ﻿写实100tick\nPlayers: 0/4\nOperating System: Windows\nMap: c2m1_highway\nVersion: 2.2.2.2\n","port":27016,"ip_str":"49.233.117.246"}
+==== end  49.233.117.246 ====
+==== start  192.111.155.210 ====
+{"os":"","timestamp":"2022-02-10T16:37:12.547581","isp":"Centrilogic, Inc.","asn":"AS31863","hostnames":["server1.ut-files.com"],"location":{"city":"High Point","region_code":"NC","area_code":0,"longitude":-80.0107,"country_code3":"","country_name":"United States","postal_code":"","dma_code":0,"country_code":"US","latitude":35.9734},"ip":3228539858,"domains":["ut-files.com"],"org":"Centrilogic, Inc.","data":"Left 4 Dead 2 Server\nName: SkillzServers.com\nPlayers: 0/4\nOperating System: Linux\nMap: c5m1_waterfront\nVersion: 2.2.1.2\n","port":27016,"ip_str":"192.111.155.210"}
+==== end  192.111.155.210 ====
+==== start  192.144.227.244 ====
+{"os":"","timestamp":"2022-02-10T14:51:59.757504","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shenzhen","region_code":"GD","area_code":0,"longitude":114.0683,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":22.54554},"ip":3230721012,"domains":[],"org":"Tencent Cloud Computing (Beijing) Co., Ltd","data":"Left 4 Dead 2 Server\nName: L4D2专家16特战役2#\nPlayers: 3/5\nOperating System: Windows\nMap: c2m4_barns\nVersion: 2.1.2.1\n","port":27016,"ip_str":"192.144.227.244"}
+==== end  192.144.227.244 ====
+==== start  68.232.163.153 ====
+{"os":"","timestamp":"2022-02-09T10:56:39.865881","isp":"The Constant Company, LLC","asn":"AS20473","hostnames":["68.232.163.153.choopa.net"],"location":{"city":"Dallas","region_code":"TX","area_code":0,"longitude":-96.80667,"country_code3":"","country_name":"United States","postal_code":"","dma_code":0,"country_code":"US","latitude":32.78306},"ip":1156096921,"domains":["choopa.net"],"org":"GameServers.com","data":"Left 4 Dead 2 Server\nName: Another Gameservers.com L4D2 server is born\nPlayers: 0/4\nOperating System: Linux\nMap: c1m1_hotel\nVersion: 2.1.1.8\n","port":27015,"ip_str":"68.232.163.153"}
+==== end  68.232.163.153 ====
+==== start  119.188.247.175 ====
+{"os":"","timestamp":"2022-02-09T07:16:45.672729","isp":"CHINA UNICOM China169 Backbone","asn":"AS4837","hostnames":[],"location":{"city":"Tianjin","region_code":"TJ","area_code":0,"longitude":117.17667,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.14222},"ip":2008872879,"domains":[],"org":"China Unicom Shandong Province Network","data":"Left 4 Dead 2 Server\nName: ﻿零度纯净多特混战服 1\nPlayers: 0/16\nOperating System: Windows\nMap: c2m1_highway\nVersion: 2.1.5.5\n","port":27015,"ip_str":"119.188.247.175"}
+==== end  119.188.247.175 ====
+==== start  212.57.136.73 ====
+{"os":"","timestamp":"2022-02-08T21:31:00.050643","isp":"PJSC Rostelecom","asn":"AS12389","hostnames":[],"location":{"city":"Chelyabinsk","region_code":"CHE","area_code":0,"longitude":61.42915,"country_code3":"","country_name":"Russian Federation","postal_code":"","dma_code":0,"country_code":"RU","latitude":55.15402},"ip":3560540233,"domains":[],"org":"Joint Stock Commercial Bank CHELINDBANK","data":"Left 4 Dead 2 Server\nName: Second Shift's L4D2 Server\nPlayers: 0/4\nOperating System: Linux\nMap: c1m1_hotel\nVersion: 2.2.1.1\n","port":27016,"ip_str":"212.57.136.73"}
+==== end  212.57.136.73 ====
+==== start  119.188.247.175 ====
+{"os":"","timestamp":"2022-02-08T18:32:56.787504","isp":"CHINA UNICOM China169 Backbone","asn":"AS4837","hostnames":[],"location":{"city":"Tianjin","region_code":"TJ","area_code":0,"longitude":117.17667,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.14222},"ip":2008872879,"domains":[],"org":"China Unicom Shandong Province Network","data":"Left 4 Dead 2 Server\nName: ﻿零度纯净多特混战服 2\nPlayers: 0/16\nOperating System: Windows\nMap: c6m1_riverbank\nVersion: 2.1.5.5\n","port":27016,"ip_str":"119.188.247.175"}
+==== end  119.188.247.175 ====
+==== start  183.134.66.177 ====
+{"os":"","timestamp":"2022-02-08T12:16:33.202489","isp":"CT-HangZhou-IDC","asn":"AS58461","hostnames":[],"location":{"city":"Shanghai","region_code":"SH","area_code":0,"longitude":121.45806,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":31.22222},"ip":3079029425,"domains":[],"org":"shanghai zhongyuan","data":"Left 4 Dead 2 Server\nName: ﻿激情无限火力 群:298116741\nPlayers: 5/12\nOperating System: Windows\nMap: c5m4_quarter\nVersion: 2.1.2.1\n","port":27016,"ip_str":"183.134.66.177"}
+==== end  183.134.66.177 ====
+==== start  108.61.254.206 ====
+{"os":"","timestamp":"2022-02-08T12:00:47.739538","isp":"The Constant Company, LLC","asn":"AS20473","hostnames":["108.61.254.206.choopa.net"],"location":{"city":"Amsterdam","region_code":"NH","area_code":0,"longitude":4.88969,"country_code3":"","country_name":"Netherlands","postal_code":"","dma_code":0,"country_code":"NL","latitude":52.37403},"ip":1816002254,"domains":["choopa.net"],"org":"GameServers.com","data":"Left 4 Dead 2 Server\nName: Another Gameservers.com L4D2 server is born\nPlayers: 0/4\nOperating System: Linux\nMap: c1m1_hotel\nVersion: 2.1.2.2\n","port":27015,"ip_str":"108.61.254.206"}
+==== end  108.61.254.206 ====
+==== start  81.71.76.94 ====
+{"os":"","timestamp":"2022-02-08T10:20:11.815279","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shanghai","region_code":"SH","area_code":0,"longitude":121.45806,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":31.22222},"ip":1363627102,"domains":[],"org":"Tencent Cloud Computing (Beijing) Co., Ltd","data":"Left 4 Dead 2 Server\nName: ﻿绝境求生14特 100tick\nPlayers: 0/4\nOperating System: Windows\nMap: c8m1_apartment\nVersion: 2.2.2.2\n","port":27016,"ip_str":"81.71.76.94"}
+==== end  81.71.76.94 ====
+==== start  91.208.52.119 ====
+{"os":"","timestamp":"2022-02-08T08:32:33.507441","isp":"Serverius","asn":"AS50673","hostnames":["s3.core-ss.org"],"location":{"city":"Almelo","region_code":"OV","area_code":0,"longitude":6.6625,"country_code3":"","country_name":"Netherlands","postal_code":"","dma_code":0,"country_code":"NL","latitude":52.35667},"ip":1540371575,"domains":["core-ss.org"],"org":"IPCSERVER LP","data":"Left 4 Dead 2 Server\nName: CORE-SS :: EU Coop-25\nPlayers: 25/25\nOperating System: Linux\nMap: c7m1_docks\nVersion: 2.2.2.3\n","port":27015,"ip_str":"91.208.52.119"}
+==== end  91.208.52.119 ====
+==== start  182.43.135.57 ====
+{"os":"","timestamp":"2022-02-07T11:33:47.433104","isp":"Cloud Computing Corporation","asn":"AS58519","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":3056305977,"domains":[],"org":"CHINANET SHANDONG PROVINCE NETWORK","data":"Left 4 Dead 2 Server\nName: ﻿烂番茄会员专属困难多特战役②服[6人房]\nPlayers: 0/10\nOperating System: Windows\nMap: c1m1_hotel\nVersion: 2.2.2.1\n","port":27015,"ip_str":"182.43.135.57"}
+==== end  182.43.135.57 ====
+==== start  203.176.92.206 ====
+{"os":"","timestamp":"2022-02-07T03:32:43.615717","isp":"Cloud Computing Corporation","asn":"AS58519","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":3417332942,"domains":[],"org":"CHINANET Guangdong province network","data":"Left 4 Dead 2 Server\nName: ❿[kkjoc]纯净战役\nPlayers: 0/8\nOperating System: Windows\nMap: c1m1_hotel\nVersion: 2.2.1.2\n","port":27015,"ip_str":"203.176.92.206"}
+==== end  203.176.92.206 ====
+==== start  106.12.131.188 ====
+{"os":"","timestamp":"2022-02-07T01:29:41.318298","isp":"Beijing Baidu Netcom Science and Technology Co., Ltd.","asn":"AS38365","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":1779205052,"domains":[],"org":"Beijing Baidu Netcom Science and Technology Co., Ltd.","data":"Left 4 Dead 2 Server\nName: 酱油大帝2\nPlayers: 0/4\nOperating System: Windows\nMap: c5m1_waterfront\nVersion: 2.1.2.1\n","port":27015,"ip_str":"106.12.131.188"}
+==== end  106.12.131.188 ====
+==== start  82.157.139.165 ====
+{"os":"","timestamp":"2022-02-06T18:02:29.394449","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":1386056613,"domains":[],"org":"Tencent Cloud Computing (Beijing) Co., Ltd","data":"Left 4 Dead 2 Server\nName: 静待佳音0/20[技抗②服]\nPlayers: 0/20\nOperating System: Windows\nMap: c5m4_quarter\nVersion: 2.1.2.1\n","port":27015,"ip_str":"82.157.139.165"}
+==== end  82.157.139.165 ====
+==== start  209.222.97.210 ====
+{"os":"","timestamp":"2022-02-06T16:30:33.511259","isp":"ReliableSite.Net LLC","asn":"AS23470","hostnames":[],"location":{"city":"Miami","region_code":"FL","area_code":0,"longitude":-80.232,"country_code3":"","country_name":"United States","postal_code":"","dma_code":0,"country_code":"US","latitude":25.813},"ip":3521012178,"domains":[],"org":"ReliableSite.Net LLC","data":"Left 4 Dead 2 Server\nName: ☣|Legacy-|V★S|-Server|☣[2/28]\nPlayers: 2/27\nOperating System: Linux\nMap: c2m2_fairgrounds\nVersion: 2.2.2.0\n","port":27015,"ip_str":"209.222.97.210"}
+==== end  209.222.97.210 ====
+==== start  49.233.117.246 ====
+{"os":"","timestamp":"2022-02-06T04:18:17.723123","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shenzhen","region_code":"GD","area_code":0,"longitude":114.0683,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":22.54554},"ip":837383670,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: ﻿战役\nPlayers: 0/4\nOperating System: Windows\nMap: c6m1_riverbank\nVersion: 2.2.2.2\n","port":27015,"ip_str":"49.233.117.246"}
+==== end  49.233.117.246 ====
+==== start  148.251.130.211 ====
+{"os":"","timestamp":"2022-02-06T04:05:30.379218","isp":"Hetzner Online GmbH","asn":"AS24940","hostnames":["static.211.130.251.148.clients.your-server.de"],"location":{"city":"Falkenstein","region_code":"SN","area_code":0,"longitude":12.37129,"country_code3":"","country_name":"Germany","postal_code":"","dma_code":0,"country_code":"DE","latitude":50.47788},"ip":2499510995,"domains":["your-server.de"],"org":"Hetzner Online GmbH","data":"Left 4 Dead 2 Server\nName: ZOZO.GG | BLOOD FACTORY #6 (GER)\nPlayers: 0/21\nOperating System: Linux\nMap: c12m1_hilltop\nVersion: 2.2.2.2\n","port":27016,"ip_str":"148.251.130.211"}
+==== end  148.251.130.211 ====
+==== start  139.198.125.186 ====
+{"os":"","timestamp":"2022-02-05T21:17:40.922566","isp":"Yunify Technologies Inc.","asn":"AS59078","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":2345041338,"domains":[],"org":"Yunify Technologies Inc.","data":"Left 4 Dead 2 Server\nName: 写实对抗 60tick\nPlayers: 0/8\nOperating System: Windows\nMap: c2m1_highway\nVersion: 2.2.2.2\n","port":27015,"ip_str":"139.198.125.186"}
+==== end  139.198.125.186 ====
+==== start  84.192.215.211 ====
+{"os":"","timestamp":"2022-02-05T18:15:44.942258","isp":"Telenet BVBA","asn":"AS6848","hostnames":["d54C0D7D3.access.telenet.be"],"location":{"city":"Hasselt","region_code":"VLG","area_code":0,"longitude":5.33781,"country_code3":"","country_name":"Belgium","postal_code":"","dma_code":0,"country_code":"BE","latitude":50.93106},"ip":1421924307,"domains":["telenet.be"],"org":"Telenet Operaties N.V.","data":"Left 4 Dead 2 Server\nName: The4Guys Left 4 Dead 2 Server\nPlayers: 0/4\nOperating System: Linux\nMap: c1m1_hotel\nVersion: 2.2.1.1\n","port":27016,"ip_str":"84.192.215.211"}
+==== end  84.192.215.211 ====
+==== start  51.83.189.227 ====
+{"os":"","timestamp":"2022-02-05T02:20:00.808371","isp":"OVH SAS","asn":"AS16276","hostnames":["ip227.ip-51-83-189.eu"],"location":{"city":"Warsaw","region_code":"14","area_code":0,"longitude":21.01178,"country_code3":"","country_name":"Poland","postal_code":"","dma_code":0,"country_code":"PL","latitude":52.22977},"ip":861126115,"domains":["ip-51-83-189.eu"],"org":"OVH Sp. z o. o.","data":"Left 4 Dead 2 Server\nName: Left 4 Disco\nPlayers: 0/16\nOperating System: Linux\nMap: c1m1_hotel\nVersion: 2.2.2.2\n","port":27015,"ip_str":"51.83.189.227"}
+==== end  51.83.189.227 ====
+==== start  129.204.217.75 ====
+{"os":"","timestamp":"2022-02-04T19:44:32.349451","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shenzhen","region_code":"GD","area_code":0,"longitude":114.0683,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":22.54554},"ip":2177685835,"domains":[],"org":"Tencent Cloud Computing (Beijing) Co., Ltd","data":"Left 4 Dead 2 Server\nName: 小吖依依の专家12特5#\nPlayers: 0/7\nOperating System: Windows\nMap: c5m1_waterfront\nVersion: 2.1.2.1\n","port":27016,"ip_str":"129.204.217.75"}
+==== end  129.204.217.75 ====
+==== start  68.232.163.152 ====
+{"os":"","timestamp":"2022-02-04T16:22:22.606897","isp":"The Constant Company, LLC","asn":"AS20473","hostnames":["68.232.163.152.choopa.net"],"location":{"city":"Dallas","region_code":"TX","area_code":0,"longitude":-96.80667,"country_code3":"","country_name":"United States","postal_code":"","dma_code":0,"country_code":"US","latitude":32.78306},"ip":1156096920,"domains":["choopa.net"],"org":"GameServers.com","data":"Left 4 Dead 2 Server\nName: Another Gameservers.com L4D2 server is born\nPlayers: 0/4\nOperating System: Linux\nMap: c1m1_hotel\nVersion: 2.1.1.8\n","port":27015,"ip_str":"68.232.163.152"}
+==== end  68.232.163.152 ====
+==== start  108.61.254.205 ====
+{"os":"","timestamp":"2022-02-04T14:19:47.991542","isp":"The Constant Company, LLC","asn":"AS20473","hostnames":["108.61.254.205.choopa.net"],"location":{"city":"Amsterdam","region_code":"NH","area_code":0,"longitude":4.88969,"country_code3":"","country_name":"Netherlands","postal_code":"","dma_code":0,"country_code":"NL","latitude":52.37403},"ip":1816002253,"domains":["choopa.net"],"org":"GameServers.com","data":"Left 4 Dead 2 Server\nName: Another Gameservers.com L4D2 server is born\nPlayers: 0/4\nOperating System: Linux\nMap: c1m1_hotel\nVersion: 2.1.2.2\n","port":27015,"ip_str":"108.61.254.205"}
+==== end  108.61.254.205 ====
+==== start  1.15.132.81 ====
+{"os":"","timestamp":"2022-02-04T13:55:54.249088","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shanghai","region_code":"SH","area_code":0,"longitude":121.45806,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":31.22222},"ip":17794129,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: L4D2专家8特战役3#\nPlayers: 0/5\nOperating System: Windows\nMap: c8m1_apartment\nVersion: 2.1.2.1\n","port":27016,"ip_str":"1.15.132.81"}
+==== end  1.15.132.81 ====
+==== start  78.84.22.155 ====
+{"os":"","timestamp":"2022-02-04T13:32:26.672000","isp":"SIA Tet","asn":"AS12578","hostnames":[],"location":{"city":"Jūrmala","region_code":"JUR","area_code":0,"longitude":23.77038,"country_code3":"","country_name":"Latvia","postal_code":"","dma_code":0,"country_code":"LV","latitude":56.968},"ip":1314133659,"domains":[],"org":"SIA Tet","data":"Left 4 Dead 2 Server\nName: sadur\nPlayers: 0/4\nOperating System: Linux\nMap: c2m4_barns\nVersion: w\n","port":27015,"ip_str":"78.84.22.155"}
+==== end  78.84.22.155 ====
+==== start  94.198.55.220 ====
+{"os":"","timestamp":"2022-02-04T11:57:20.095266","isp":"LLC Smart Ape","asn":"AS56694","hostnames":["s239652.srvape.com"],"location":{"city":"Moscow","region_code":"MOW","area_code":0,"longitude":37.61556,"country_code3":"","country_name":"Russian Federation","postal_code":"","dma_code":0,"country_code":"RU","latitude":55.75222},"ip":1590048732,"domains":["srvape.com"],"org":"LLC Smart Ape","data":"Left 4 Dead 2 Server\nName: ZOZO.GG | BLOOD FACTORY #4 (MSK)\nPlayers: 20/21\nOperating System: Linux\nMap: c8m1_apartment\nVersion: 2.2.2.3\n","port":27016,"ip_str":"94.198.55.220"}
+==== end  94.198.55.220 ====
+==== start  111.229.91.129 ====
+{"os":"","timestamp":"2022-02-04T08:20:08.247532","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":1877302145,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: 对抗6（药抗）zonemod\nPlayers: 0/8\nOperating System: Linux\nMap: c2m1_highway\nVersion: 2.2.2.2\n","port":27016,"ip_str":"111.229.91.129"}
+==== end  111.229.91.129 ====
+==== start  124.206.57.86 ====
+{"os":"","timestamp":"2022-02-04T07:24:58.497017","isp":"China Unicom Beijing Province Network","asn":"AS4808","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":2093889878,"domains":[],"org":"Beijing Teletron Telecom Engineering Co., Ltd.","data":"Left 4 Dead 2 Server\nName: 百度求生之路吧欢迎你\nPlayers: 0/4\nOperating System: Windows\nMap: c12m3_bridge\nVersion: 2.1.4.9\n","port":27015,"ip_str":"124.206.57.86"}
+==== end  124.206.57.86 ====
+==== start  42.192.231.76 ====
+{"os":"","timestamp":"2022-02-04T00:13:08.954153","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shanghai","region_code":"SH","area_code":0,"longitude":121.45806,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":31.22222},"ip":717285196,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: ﻿风花雪夜纯净多特服 群:105745127\nPlayers: 0/16\nOperating System: Windows\nMap: tgxl\nVersion: 2.1.5.5\n","port":27016,"ip_str":"42.192.231.76"}
+==== end  42.192.231.76 ====
+==== start  78.139.77.165 ====
+{"os":"","timestamp":"2022-02-03T11:01:37.380798","isp":"Closed Joint Stock Company Radiotelephone","asn":"AS39812","hostnames":["l4d.kamensktel.ru"],"location":{"city":"Pokrovskoye","region_code":"SVE","area_code":0,"longitude":61.7183,"country_code3":"","country_name":"Russian Federation","postal_code":"","dma_code":0,"country_code":"RU","latitude":56.5786},"ip":1317752229,"domains":["kamensktel.ru"],"org":"CJSC Radiotelephone","data":"Left 4 Dead 2 Server\nName: ZOZO.GG | MULTITANKS VERSUS (EKB)\nPlayers: 2/21\nOperating System: Linux\nMap: c12m2_traintunnel\nVersion: 2.2.2.3\n","port":27015,"ip_str":"78.139.77.165"}
+==== end  78.139.77.165 ====
+==== start  106.53.146.238 ====
+{"os":"","timestamp":"2022-02-03T07:56:22.747293","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shanghai","region_code":"SH","area_code":0,"longitude":121.45806,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":31.22222},"ip":1781895918,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: 猫娘军姬的小窝~\nPlayers: 0/10\nOperating System: Windows\nMap: c2m1_highway\nVersion: 2.2.2.3\n","port":27015,"ip_str":"106.53.146.238"}
+==== end  106.53.146.238 ====
+==== start  60.206.105.35 ====
+{"os":"","timestamp":"2022-02-03T05:47:01.818888","isp":"China Unicom Beijing Province Network","asn":"AS4808","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":1020160291,"domains":[],"org":"Beijing Cloud Ark Technology Co., Ltd.","data":"Left 4 Dead 2 Server\nName: 百度求生之路吧欢迎你\nPlayers: 0/4\nOperating System: Windows\nMap: c1m4_atrium\nVersion: 2.1.4.9\n","port":27015,"ip_str":"60.206.105.35"}
+==== end  60.206.105.35 ====
+==== start  106.55.149.134 ====
+{"os":"","timestamp":"2022-02-02T23:49:36.397897","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shenzhen","region_code":"GD","area_code":0,"longitude":114.0683,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":22.54554},"ip":1782027654,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: ﻿【Valar Morghulis】战役多特丨100tick\nPlayers: 0/11\nOperating System: Linux\nMap: c2m1_highway\nVersion: 2.2.2.2\n","port":27015,"ip_str":"106.55.149.134"}
+==== end  106.55.149.134 ====
+==== start  150.158.51.165 ====
+{"os":"","timestamp":"2022-02-02T04:57:53.247469","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":2526950309,"domains":[],"org":"Tencent Cloud Computing (Beijing) Co., Ltd","data":"Left 4 Dead 2 Server\nName: ﻿8人服务器\nPlayers: 0/8\nOperating System: Windows\nMap: c1m1_hotel\nVersion: 2.2.2.2\n","port":27015,"ip_str":"150.158.51.165"}
+==== end  150.158.51.165 ====
+==== start  1.12.232.221 ====
+{"os":"","timestamp":"2022-02-01T22:06:17.892325","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shenzhen","region_code":"GD","area_code":0,"longitude":114.0683,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":22.54554},"ip":17623261,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: 都2022年了还在炸服呢[6特16秒]\nPlayers: 0/6\nOperating System: Linux\nMap: c5m1_waterfront\nVersion: 2.2.2.2\n","port":27015,"ip_str":"1.12.232.221"}
+==== end  1.12.232.221 ====
+==== start  185.137.235.60 ====
+{"os":"","timestamp":"2022-02-01T16:08:38.226583","isp":"OOO Network of data-centers Selectel","asn":"AS49505","hostnames":[],"location":{"city":"Saint Petersburg","region_code":"SPE","area_code":0,"longitude":30.31413,"country_code3":"","country_name":"Russian Federation","postal_code":"","dma_code":0,"country_code":"RU","latitude":59.93863},"ip":3112823612,"domains":[],"org":"Selectel Network","data":"Left 4 Dead 2 Server\nName: From Russia With Love [Public|Gentlemod|100Tick]\nPlayers: 2/4\nOperating System: Linux\nMap: l4d2_tanksplayground\nVersion: 2.2.2.2\n","port":28015,"ip_str":"185.137.235.60"}
+==== end  185.137.235.60 ====
+==== start  152.136.98.187 ====
+{"os":"","timestamp":"2022-02-01T14:53:06.097040","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":2559075003,"domains":[],"org":"Tencent Cloud Computing (Beijing) Co., Ltd","data":"Left 4 Dead 2 Server\nName: L4D2 纯净写实\nPlayers: 2/5\nOperating System: Windows\nMap: c2m4_barns\nVersion: 2.1.2.1\n","port":27016,"ip_str":"152.136.98.187"}
+==== end  152.136.98.187 ====
+==== start  119.23.67.130 ====
+{"os":"","timestamp":"2022-02-01T11:34:16.691226","isp":"Hangzhou Alibaba Advertising Co.,Ltd.","asn":"AS37963","hostnames":[],"location":{"city":"Shenzhen","region_code":"GD","area_code":0,"longitude":114.0683,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":22.54554},"ip":1998013314,"domains":[],"org":"Aliyun Computing Co., LTD","data":"Left 4 Dead 2 Server\nName: ﻿三方QQ群552542819\nPlayers: 2/10\nOperating System: Windows\nMap: ch_map1_city\nVersion: 2.2.2.2\n","port":27015,"ip_str":"119.23.67.130"}
+==== end  119.23.67.130 ====
+==== start  66.55.155.117 ====
+{"os":"","timestamp":"2022-02-01T03:55:15.180198","isp":"The Constant Company, LLC","asn":"AS20473","hostnames":["66.55.155.117.gameservers.com"],"location":{"city":"New York City","region_code":"NY","area_code":0,"longitude":-74.00597,"country_code3":"","country_name":"United States","postal_code":"","dma_code":0,"country_code":"US","latitude":40.71427},"ip":1110940533,"domains":["gameservers.com"],"org":"GameServers.com","data":"Left 4 Dead 2 Server\nName: Another Gameservers.com L4D2 server is born\nPlayers: 0/4\nOperating System: Linux\nMap: c1m1_hotel\nVersion: 2.2.2.0\n","port":27015,"ip_str":"66.55.155.117"}
+==== end  66.55.155.117 ====
+==== start  43.242.73.52 ====
+{"os":"","timestamp":"2022-02-01T02:26:21.388841","isp":"Fuzhou","asn":"AS133774","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":737298740,"domains":[],"org":"Kaopu Cloud","data":"Left 4 Dead 2 Server\nName: ④无法逃脱RPG\nPlayers: 0/12\nOperating System: Windows\nMap: c1m1_hotel\nVersion: 2.2.2.2\n","port":27015,"ip_str":"43.242.73.52"}
+==== end  43.242.73.52 ====
+==== start  119.91.138.228 ====
+{"os":"","timestamp":"2022-02-01T01:34:29.412407","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":2002488036,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: 腾讯云轻量测试2服[6特16秒]\nPlayers: 0/1\nOperating System: Linux\nMap: c5m1_waterfront\nVersion: 2.2.2.2\n","port":27016,"ip_str":"119.91.138.228"}
+==== end  119.91.138.228 ====
+==== start  61.164.153.212 ====
+{"os":"","timestamp":"2022-02-01T01:20:15.751483","isp":"WENZHOU, ZHEJIANG Province, P.R.China.","asn":"AS134771","hostnames":[],"location":{"city":"Jilin","region_code":"JL","area_code":0,"longitude":126.56028,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":43.85083},"ip":1034197460,"domains":[],"org":"Jilin Ko Shing Technology Co., Ltd.","data":"Left 4 Dead 2 Server\nName: 一群沙雕[技能对抗1服]\nPlayers: 0/8\nOperating System: Linux\nMap: c11m1_greenhouse\nVersion: 2.2.2.2\n","port":27015,"ip_str":"61.164.153.212"}
+==== end  61.164.153.212 ====
+==== start  106.55.250.72 ====
+{"os":"","timestamp":"2022-01-31T21:39:16.470746","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shanghai","region_code":"SH","area_code":0,"longitude":121.45806,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":31.22222},"ip":1782053448,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: ﻿火神战役 100tick\nPlayers: 0/7\nOperating System: Windows\nMap: c2m1_highway\nVersion: 2.2.2.2\n","port":27015,"ip_str":"106.55.250.72"}
+==== end  106.55.250.72 ====
+==== start  45.126.208.162 ====
+{"os":"","timestamp":"2022-01-31T21:23:20.668925","isp":"ReliableSite.Net LLC","asn":"AS23470","hostnames":[],"location":{"city":"Miami","region_code":"FL","area_code":0,"longitude":-80.2341,"country_code3":"","country_name":"United States","postal_code":"","dma_code":0,"country_code":"US","latitude":25.7825},"ip":763285666,"domains":[],"org":"ReliableSite.Net LLC","data":"Left 4 Dead 2 Server\nName: [MisheyComp Miami #1 #0]\nPlayers: 0/16\nOperating System: Linux\nMap: c2m1_highway\nVersion: 2.2.2.2\n","port":27015,"ip_str":"45.126.208.162"}
+==== end  45.126.208.162 ====
+==== start  61.48.154.102 ====
+{"os":"","timestamp":"2022-01-31T20:35:07.629678","isp":"China Unicom Beijing Province Network","asn":"AS4808","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":1026595430,"domains":[],"org":"China Unicom Beijing province network","data":"Left 4 Dead 2 Server\nName: ﻿【CN】1.三方多特\nPlayers: 0/16\nOperating System: Windows\nMap: l4d2_bts01_forest\nVersion: 2.2.2.2\n","port":27015,"ip_str":"61.48.154.102"}
+==== end  61.48.154.102 ====
+==== start  212.92.101.18 ====
+{"os":"","timestamp":"2022-01-31T19:18:22.795157","isp":"OOO Network of data-centers Selectel","asn":"AS49505","hostnames":[],"location":{"city":"Saint Petersburg","region_code":"SPE","area_code":0,"longitude":30.31413,"country_code3":"","country_name":"Russian Federation","postal_code":"","dma_code":0,"country_code":"RU","latitude":59.93863},"ip":3562824978,"domains":[],"org":"Selectel","data":"Left 4 Dead 2 Server\nName: GAME MANIA : Fantastic Coop [2]\nPlayers: 0/10\nOperating System: Linux\nMap: c2m1_highway\nVersion: 2.2.2.2\n","port":28015,"ip_str":"212.92.101.18"}
+==== end  212.92.101.18 ====
+==== start  164.132.203.167 ====
+{"os":"","timestamp":"2022-01-31T07:10:01.243882","isp":"OVH SAS","asn":"AS16276","hostnames":["ns3050069.ip-164-132-203.eu"],"location":{"city":"Onnaing","region_code":"HDF","area_code":0,"longitude":3.59963,"country_code3":"","country_name":"France","postal_code":"","dma_code":0,"country_code":"FR","latitude":50.38584},"ip":2760166311,"domains":["ip-164-132-203.eu"],"org":"OVH SAS","data":"Left 4 Dead 2 Server\nName: Error #2| T1\nPlayers: 0/18\nOperating System: Linux\nMap: c1m1_hotel\nVersion: 2.2.2.2\n","port":27016,"ip_str":"164.132.203.167"}
+==== end  164.132.203.167 ====
+==== start  106.52.164.152 ====
+{"os":"","timestamp":"2022-01-31T02:12:25.670919","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Guangzhou","region_code":"GD","area_code":0,"longitude":113.25,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":23.11667},"ip":1781834904,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: ﻿技能对抗\nPlayers: 0/8\nOperating System: Windows\nMap: c4m1_milltown_a\nVersion: 2.2.2.2\n","port":27015,"ip_str":"106.52.164.152"}
+==== end  106.52.164.152 ====
+==== start  43.242.73.52 ====
+{"os":"","timestamp":"2022-01-31T01:14:42.919024","isp":"Fuzhou","asn":"AS133774","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":737298740,"domains":[],"org":"Kaopu Cloud","data":"Left 4 Dead 2 Server\nName: ⑤无法逃脱RPG\nPlayers: 0/12\nOperating System: Windows\nMap: c1m1_hotel\nVersion: 2.2.2.2\n","port":27016,"ip_str":"43.242.73.52"}
+==== end  43.242.73.52 ====
+==== start  119.29.114.80 ====
+{"os":"","timestamp":"2022-01-30T18:17:30.397852","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":1998418512,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: [死亡之门] 蓝色火焰的开心世界 [14特5秒]\nPlayers: 0/4\nOperating System: Windows\nMap: c2m1_highway\nVersion: 2.2.2.2\n","port":27015,"ip_str":"119.29.114.80"}
+==== end  119.29.114.80 ====
+==== start  82.66.75.218 ====
+{"os":"","timestamp":"2022-01-29T19:34:00.139091","isp":"Free SAS","asn":"AS12322","hostnames":["gar31-1_migr-82-66-75-218.fbx.proxad.net"],"location":{"city":"Paris","region_code":"IDF","area_code":0,"longitude":2.3488,"country_code3":"","country_name":"France","postal_code":"","dma_code":0,"country_code":"FR","latitude":48.85341},"ip":1380076506,"domains":["proxad.net"],"org":"Proxad / Free SAS","data":"Left 4 Dead 2 Server\nName: .:\\\\ Walk in Dead //:. Rampage\nPlayers: 3/8\nOperating System: Linux\nMap: Prison_Yard\nVersion: 2.2.2.2\n","port":27016,"ip_str":"82.66.75.218"}
+==== end  82.66.75.218 ====
+==== start  31.220.167.40 ====
+{"os":"","timestamp":"2022-01-29T16:37:31.849422","isp":"Regional Digital Telecommunication Company LLC","asn":"AS29072","hostnames":["31-220-167-40.rdtc.ru"],"location":{"city":"Novokuznetsk","region_code":"KEM","area_code":0,"longitude":87.1,"country_code3":"","country_name":"Russian Federation","postal_code":"","dma_code":0,"country_code":"RU","latitude":53.75},"ip":534554408,"domains":["rdtc.ru"],"org":"Regional Digital Telecommunication Company","data":"Left 4 Dead 2 Server\nName: Nassal\nPlayers: 0/4\nOperating System: Linux\nMap: dw_underground\nVersion: w\n","port":27015,"ip_str":"31.220.167.40"}
+==== end  31.220.167.40 ====
+==== start  43.242.73.229 ====
+{"os":"","timestamp":"2022-01-29T14:45:08.389986","isp":"Fuzhou","asn":"AS133774","hostnames":[],"location":{"city":"Shanghai","region_code":"SH","area_code":0,"longitude":121.45806,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":31.22222},"ip":737298917,"domains":[],"org":"Kaopu Cloud","data":"Left 4 Dead 2 Server\nName: ②无法逃脱RPG\nPlayers: 0/12\nOperating System: Windows\nMap: c3m1_plankcountry\nVersion: 2.2.2.2\n","port":27016,"ip_str":"43.242.73.229"}
+==== end  43.242.73.229 ====
+==== start  94.198.55.220 ====
+{"os":"","timestamp":"2022-01-29T13:53:33.755595","isp":"LLC Smart Ape","asn":"AS56694","hostnames":["s239652.srvape.com"],"location":{"city":"Moscow","region_code":"MOW","area_code":0,"longitude":37.61556,"country_code3":"","country_name":"Russian Federation","postal_code":"","dma_code":0,"country_code":"RU","latitude":55.75222},"ip":1590048732,"domains":["srvape.com"],"org":"LLC Smart Ape","data":"Left 4 Dead 2 Server\nName: ZOZO.GG | BLOOD FACTORY #3 (MSK)\nPlayers: 19/21\nOperating System: Linux\nMap: c13m2_southpinestream\nVersion: 2.2.2.2\n","port":27015,"ip_str":"94.198.55.220"}
+==== end  94.198.55.220 ====
+==== start  42.194.209.179 ====
+{"os":"","timestamp":"2022-01-29T08:02:23.047705","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":717410739,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: Left 4 Dead 2\nPlayers: 0/16\nOperating System: Windows\nMap: c4m1_milltown_a\nVersion: 2.1.2.1\n","port":27015,"ip_str":"42.194.209.179"}
+==== end  42.194.209.179 ====
+==== start  124.223.23.164 ====
+{"os":"","timestamp":"2022-01-29T07:22:48.726964","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shenzhen","region_code":"GD","area_code":0,"longitude":114.0683,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":22.54554},"ip":2094995364,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: Left 4 Dead 2\nPlayers: 0/8\nOperating System: Windows\nMap: c2m1_highway\nVersion: 2.2.2.2\n","port":27015,"ip_str":"124.223.23.164"}
+==== end  124.223.23.164 ====
+==== start  1.14.96.47 ====
+{"os":"","timestamp":"2022-01-28T21:33:09.348764","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":17719343,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: 牢房加盖[6特16秒]\nPlayers: 0/4\nOperating System: Linux\nMap: c2m1_highway\nVersion: 2.2.2.2\n","port":27015,"ip_str":"1.14.96.47"}
+==== end  1.14.96.47 ====
+==== start  106.52.164.152 ====
+{"os":"","timestamp":"2022-01-28T21:08:00.726204","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Guangzhou","region_code":"GD","area_code":0,"longitude":113.25,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":23.11667},"ip":1781834904,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: ﻿技能对抗\nPlayers: 0/8\nOperating System: Windows\nMap: c2m1_highway\nVersion: 2.2.2.2\n","port":27016,"ip_str":"106.52.164.152"}
+==== end  106.52.164.152 ====
+==== start  106.55.250.72 ====
+{"os":"","timestamp":"2022-01-28T13:21:16.467006","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shanghai","region_code":"SH","area_code":0,"longitude":121.45806,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":31.22222},"ip":1782053448,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: ﻿阿尔法写实 100tick\nPlayers: 0/4\nOperating System: Windows\nMap: c2m1_highway\nVersion: 2.2.2.2\n","port":27016,"ip_str":"106.55.250.72"}
+==== end  106.55.250.72 ====
+==== start  37.230.210.85 ====
+{"os":"","timestamp":"2022-01-28T12:44:01.896480","isp":"RS-Media LLC","asn":"AS197309","hostnames":["Host-37-230-210-85.rs-media.ru"],"location":{"city":"Moscow","region_code":"MOW","area_code":0,"longitude":37.61556,"country_code3":"","country_name":"Russian Federation","postal_code":"","dma_code":0,"country_code":"RU","latitude":55.75222},"ip":635884117,"domains":["rs-media.ru"],"org":"RS-Media LLC","data":"Left 4 Dead 2 Server\nName: Rus Coop-25\nPlayers: 10/25\nOperating System: Linux\nMap: c9m2_lots\nVersion: 2.2.2.2\n","port":27016,"ip_str":"37.230.210.85"}
+==== end  37.230.210.85 ====
+==== start  47.33.214.34 ====
+{"os":"","timestamp":"2022-01-28T12:36:48.872138","isp":"Charter Communications","asn":"AS20115","hostnames":["047-033-214-034.res.spectrum.com"],"location":{"city":"Oxford","region_code":"MI","area_code":0,"longitude":-83.26466,"country_code3":"","country_name":"United States","postal_code":"","dma_code":0,"country_code":"US","latitude":42.82475},"ip":790746658,"domains":["spectrum.com"],"org":"Charter Communications","data":"Left 4 Dead 2 Server\nName: Phin's Death Machine\nPlayers: 0/4\nOperating System: Windows\nMap: c1m1_hotel\nVersion: 2.2.2.2\n","port":27016,"ip_str":"47.33.214.34"}
+==== end  47.33.214.34 ====
+==== start  119.91.108.32 ====
+{"os":"","timestamp":"2022-01-27T20:13:17.315852","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":2002480160,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: 已经没有什么好害怕的了[6特16秒]\nPlayers: 0/6\nOperating System: Linux\nMap: c5m1_waterfront\nVersion: 2.2.2.2\n","port":27016,"ip_str":"119.91.108.32"}
+==== end  119.91.108.32 ====
+==== start  46.234.76.171 ====
+{"os":"","timestamp":"2022-01-27T11:53:43.363157","isp":"A1 Hrvatska d.o.o.","asn":"AS31012","hostnames":["cpe-46-234-76-171.static1.client.xnet.hr"],"location":{"city":"Zagreb","region_code":"21","area_code":0,"longitude":15.97798,"country_code3":"","country_name":"Croatia","postal_code":"","dma_code":0,"country_code":"HR","latitude":45.81444},"ip":787106987,"domains":["xnet.hr"],"org":"XNET-BNET","data":"Left 4 Dead 2 Server\nName: alServVersusRebirth\nPlayers: 0/12\nOperating System: Linux\nMap: c1m1_hotel\nVersion: 2.2.2.2\n","port":27016,"ip_str":"46.234.76.171"}
+==== end  46.234.76.171 ====
+==== start  162.248.94.127 ====
+{"os":"","timestamp":"2022-01-27T11:40:22.982218","isp":"Nuclearfallout Enterprises, Inc.","asn":"AS32751","hostnames":["d-162-248-94-127.ded-machine.premium-seattle.nfoservers.com"],"location":{"city":"Des Moines","region_code":"WA","area_code":0,"longitude":-122.32429,"country_code3":"","country_name":"United States","postal_code":"","dma_code":0,"country_code":"US","latitude":47.40177},"ip":2734186111,"domains":["nfoservers.com"],"org":"Nuclearfallout Enterprises, Inc.","data":"Left 4 Dead 2 Server\nName: Points Reloaded COOP US (mgftw.com)\nPlayers: 1/16\nOperating System: Linux\nMap: c9m1_alleys\nVersion: 2.2.2.2\n","port":27015,"ip_str":"162.248.94.127"}
+==== end  162.248.94.127 ====
+==== start  49.232.100.8 ====
+{"os":"","timestamp":"2022-01-26T20:41:57.599749","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":837313544,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: 豆瓣酱な的萌新服\nPlayers: 0/8\nOperating System: Windows\nMap: c2m1_highway\nVersion: 2.2.2.2\n","port":27015,"ip_str":"49.232.100.8"}
+==== end  49.232.100.8 ====
+==== start  125.66.78.92 ====
+{"os":"","timestamp":"2022-01-26T15:26:45.818011","isp":"CHINANET-BACKBONE","asn":"AS4134","hostnames":["92.78.66.125.broad.zg.sc.dynamic.163data.com.cn"],"location":{"city":"Guangzhou","region_code":"GD","area_code":0,"longitude":113.25,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":23.11667},"ip":2101497436,"domains":["163data.com.cn"],"org":"CHINANET Sichuan province network","data":"Left 4 Dead 2 Server\nName: ﻿尸愁之路娱乐联线-791210212\nPlayers: 0/22\nOperating System: Windows\nMap: getout\nVersion: 2.1.2.1\n","port":27015,"ip_str":"125.66.78.92"}
+==== end  125.66.78.92 ====
+==== start  115.159.120.161 ====
+{"os":"","timestamp":"2022-01-26T11:44:55.887137","isp":"Shenzhen Tencent Computer Systems Company Limited","asn":"AS45090","hostnames":[],"location":{"city":"Shenzhen","region_code":"GD","area_code":0,"longitude":114.0683,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":22.54554},"ip":1939830945,"domains":[],"org":"Tencent cloud computing (Beijing) Co., Ltd.","data":"Left 4 Dead 2 Server\nName: Left 4 Dead 2\nPlayers: 0/8\nOperating System: Linux\nMap: c1m1_hotel\nVersion: 2.2.1.2\n","port":27015,"ip_str":"115.159.120.161"}
+==== end  115.159.120.161 ====
+==== start  78.84.216.8 ====
+{"os":"","timestamp":"2022-01-26T09:43:28.184177","isp":"SIA Tet","asn":"AS12578","hostnames":[],"location":{"city":"Jelgava","region_code":"JEL","area_code":0,"longitude":23.71278,"country_code3":"","country_name":"Latvia","postal_code":"","dma_code":0,"country_code":"LV","latitude":56.65},"ip":1314183176,"domains":[],"org":"SIA Tet","data":"Left 4 Dead 2 Server\nName: MasterOfSpiral\nPlayers: 0/4\nOperating System: Linux\nMap: c3m1_plankcountry\nVersion: w\n","port":27015,"ip_str":"78.84.216.8"}
+==== end  78.84.216.8 ====
+==== start  46.174.51.209 ====
+{"os":"","timestamp":"2022-01-26T06:06:44.183753","isp":"RS-Media LLC","asn":"AS197309","hostnames":["Host-46-174-51-209.rs-media.ru"],"location":{"city":"Moscow","region_code":"MOW","area_code":0,"longitude":37.61556,"country_code3":"","country_name":"Russian Federation","postal_code":"","dma_code":0,"country_code":"RU","latitude":55.75222},"ip":783168465,"domains":["rs-media.ru"],"org":"RS-Media LLC","data":"Left 4 Dead 2 Server\nName: SyncZone #3 [coop16] (14/20)\nPlayers: 14/20\nOperating System: Linux\nMap: c6m3_port\nVersion: 2.2.2.2\n","port":27015,"ip_str":"46.174.51.209"}
+==== end  46.174.51.209 ====
+==== start  173.233.155.91 ====
+{"os":"","timestamp":"2022-01-25T07:41:06.578684","isp":"Servers.com, Inc.","asn":"AS7979","hostnames":[],"location":{"city":"Washington","region_code":"DC","area_code":0,"longitude":-77.03637,"country_code3":"","country_name":"United States","postal_code":"","dma_code":0,"country_code":"US","latitude":38.89511},"ip":2917768027,"domains":[],"org":"Servers.com, Inc.","data":"Left 4 Dead 2 Server\nName:  Kruffty's Killers\nPlayers: 0/10\nOperating System: Linux\nMap: fnaf1_n1\nVersion: 2.2.2.2\n","port":27015,"ip_str":"173.233.155.91"}
+==== end  173.233.155.91 ====
+==== start  116.242.64.15 ====
+{"os":"","timestamp":"2022-01-25T06:35:31.508916","isp":"China Unicom Beijing Province Network","asn":"AS4808","hostnames":[],"location":{"city":"Beijing","region_code":"BJ","area_code":0,"longitude":116.39723,"country_code3":"","country_name":"China","postal_code":"","dma_code":0,"country_code":"CN","latitude":39.9075},"ip":1962033167,"domains":[],"org":"Beijing Teletron Telecom Engineering Co., Ltd.","data":"Left 4 Dead 2 Server\nName: [l4d2.cc]我还没改名字\nPlayers: 0/4\nOperating System: Windows\nMap: c6m1_riverbank\nVersion: 2.1.2.1\n","port":27015,"ip_str":"116.242.64.15"}
+==== end  116.242.64.15 ====
+IP, Port
+174.48.20.208, 27015
+46.174.52.37, 27015
+1.15.60.236, 27016
+212.57.136.73, 27015
+168.226.217.15, 27016
+43.239.136.72, 27016
+217.18.240.134, 27016
+42.192.231.76, 27015
+45.79.196.241, 27015
+213.5.65.17, 27015
+108.61.254.188, 27015
+148.251.130.211, 27015
+5.189.124.206, 27016
+82.220.9.54, 27015
+114.67.202.92, 27015
+68.232.163.190, 27015
+42.194.138.146, 27015
+101.43.25.126, 27015
+178.63.178.253, 27015
+129.204.217.75, 27015
+119.45.129.194, 27015
+165.227.114.227, 27015
+1.15.118.229, 27015
+98.244.3.8, 27015
+101.33.230.125, 27016
+113.219.200.91, 27015
+37.230.210.58, 27015
+37.230.210.58, 27016
+49.233.117.246, 27016
+192.111.155.210, 27016
+192.144.227.244, 27016
+68.232.163.153, 27015
+119.188.247.175, 27015
+212.57.136.73, 27016
+119.188.247.175, 27016
+183.134.66.177, 27016
+108.61.254.206, 27015
+81.71.76.94, 27016
+91.208.52.119, 27015
+182.43.135.57, 27015
+203.176.92.206, 27015
+106.12.131.188, 27015
+82.157.139.165, 27015
+209.222.97.210, 27015
+49.233.117.246, 27015
+148.251.130.211, 27016
+139.198.125.186, 27015
+84.192.215.211, 27016
+51.83.189.227, 27015
+129.204.217.75, 27016
+68.232.163.152, 27015
+108.61.254.205, 27015
+1.15.132.81, 27016
+78.84.22.155, 27015
+94.198.55.220, 27016
+111.229.91.129, 27016
+124.206.57.86, 27015
+42.192.231.76, 27016
+78.139.77.165, 27015
+106.53.146.238, 27015
+60.206.105.35, 27015
+106.55.149.134, 27015
+150.158.51.165, 27015
+1.12.232.221, 27015
+185.137.235.60, 28015
+152.136.98.187, 27016
+119.23.67.130, 27015
+66.55.155.117, 27015
+43.242.73.52, 27015
+119.91.138.228, 27016
+61.164.153.212, 27015
+106.55.250.72, 27015
+45.126.208.162, 27015
+61.48.154.102, 27015
+212.92.101.18, 28015
+164.132.203.167, 27016
+106.52.164.152, 27015
+43.242.73.52, 27016
+119.29.114.80, 27015
+82.66.75.218, 27016
+31.220.167.40, 27015
+43.242.73.229, 27016
+94.198.55.220, 27015
+42.194.209.179, 27015
+124.223.23.164, 27015
+1.14.96.47, 27015
+106.52.164.152, 27016
+106.55.250.72, 27016
+37.230.210.85, 27016
+47.33.214.34, 27016
+119.91.108.32, 27016
+46.234.76.171, 27016
+162.248.94.127, 27015
+49.232.100.8, 27015
+125.66.78.92, 27015
+115.159.120.161, 27015
+78.84.216.8, 27015
+46.174.51.209, 27015
+173.233.155.91, 27015
+116.242.64.15, 27015
