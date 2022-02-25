@@ -28,7 +28,7 @@ func main() {
 		info.QueryCredits,
 		info.ScanCredits)
 
-	hostSearch, err := s.HostSearch(os.Args[1])
+	hostSearch, err := s.HostSearch(os.Args[1], 2)
 	if err != nil {
 		log.Panicln(err)
 	}
