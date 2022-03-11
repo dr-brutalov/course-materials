@@ -16,7 +16,7 @@ type Response struct {
 
 type Assignment struct {
 	Id          string `json:"id"`
-	Title       string `json:"title`
+	Title       string `json:"title"`
 	Description string `json:"desc"`
 	Points      int    `json:"points"`
 }
@@ -26,12 +26,12 @@ var Assignments []Assignment
 const Valkey string = "FooKey"
 
 func InitAssignments() {
-	var assignmnet Assignment
-	assignmnet.Id = "Mike1A"
-	assignmnet.Title = "Lab 4 "
-	assignmnet.Description = "Some lab this guy made yesteday?"
-	assignmnet.Points = 20
-	Assignments = append(Assignments, assignmnet)
+	var assignment Assignment
+	assignment.Id = "Mike1A"
+	assignment.Title = "Lab 4 "
+	assignment.Description = "Some lab this guy made yesterday?"
+	assignment.Points = 20
+	Assignments = append(Assignments, assignment)
 }
 
 func MainPage(w http.ResponseWriter, r *http.Request) {
@@ -75,6 +75,9 @@ func GetAssignment(w http.ResponseWriter, r *http.Request) {
 		if assignment.Id == params["id"] {
 			json.NewEncoder(w).Encode(assignment)
 			break
+		} else {
+			log.Printf("This assignment does not exist. Check the ID and try again or create a new assignment.")
+			fmt.Fprintf(w, "This assignment does not exist.")
 		}
 	}
 	//TODO : Provide a response if there is no such assignment
@@ -87,8 +90,12 @@ func DeleteAssignment(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusOK)
 	params := mux.Vars(r)
 
-	response := make(map[string]string)
+	//key := r.URL.Query().Get("validationkey")
 
+	response := make(map[string]string)
+	//response["validationKey"] = Valkey
+
+	//if key == Valkey {
 	response["status"] = "No Such ID to Delete"
 	for index, assignment := range Assignments {
 		if assignment.Id == params["id"] {
@@ -97,6 +104,7 @@ func DeleteAssignment(w http.ResponseWriter, r *http.Request) {
 			break
 		}
 	}
+	//}
 
 	jsonResponse, err := json.Marshal(response)
 	if err != nil {
@@ -110,22 +118,38 @@ func UpdateAssignment(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
 	var response Response
+
+	params := mux.Vars(r)
 	response.Assignments = Assignments
+
+	for _, assignment := range Assignments {
+		if assignment.Id == params["id"] {
+			assignment.Id = r.FormValue("id")
+			assignment.Title = r.FormValue("title")
+			assignment.Description = r.FormValue("desc")
+			assignment.Points, _ = strconv.Atoi(r.FormValue("points"))
+			//Assignments = append(Assignments, assignment) // Might be redundant?
+			w.WriteHeader(http.StatusCreated)
+		} else {
+			log.Printf("This assignment does not exist. Check the ID and try again or create a new assignment.")
+			fmt.Fprintf(w, "This assignment does not exist.")
+		}
+	}
 
 }
 
 func CreateAssignment(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	var assignmnet Assignment
+	var assignment Assignment
 	r.ParseForm()
 	// Possible TODO: Better Error Checking!
 	// Possible TODO: Better Logging
 	if r.FormValue("id") != "" {
-		assignmnet.Id = r.FormValue("id")
-		assignmnet.Title = r.FormValue("title")
-		assignmnet.Description = r.FormValue("desc")
-		assignmnet.Points, _ = strconv.Atoi(r.FormValue("points"))
-		Assignments = append(Assignments, assignmnet)
+		assignment.Id = r.FormValue("id")
+		assignment.Title = r.FormValue("title")
+		assignment.Description = r.FormValue("desc")
+		assignment.Points, _ = strconv.Atoi(r.FormValue("points"))
+		Assignments = append(Assignments, assignment)
 		w.WriteHeader(http.StatusCreated)
 	}
 	w.WriteHeader(http.StatusNotFound)
