@@ -87,7 +87,7 @@ func GetAssignment(w http.ResponseWriter, r *http.Request) {
 func DeleteAssignment(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Entering %s DELETE end point", r.URL.Path)
 	w.Header().Set("Content-Type", "application/txt")
-	w.WriteHeader(http.StatusOK)
+
 	params := mux.Vars(r)
 
 	//key := r.URL.Query().Get("validationkey")
@@ -101,7 +101,11 @@ func DeleteAssignment(w http.ResponseWriter, r *http.Request) {
 		if assignment.Id == params["id"] {
 			Assignments = append(Assignments[:index], Assignments[index+1:]...)
 			response["status"] = "Success"
+			w.WriteHeader(http.StatusOK)
 			break
+		} else {
+
+			w.WriteHeader(http.StatusBadRequest)
 		}
 	}
 	//}
@@ -128,8 +132,9 @@ func UpdateAssignment(w http.ResponseWriter, r *http.Request) {
 			assignment.Title = r.FormValue("title")
 			assignment.Description = r.FormValue("desc")
 			assignment.Points, _ = strconv.Atoi(r.FormValue("points"))
-			//Assignments = append(Assignments, assignment) // Might be redundant?
-			w.WriteHeader(http.StatusCreated)
+			DeleteAssignment(w, r)
+			Assignments = append(Assignments, assignment) // Might be redundant?
+			//w.WriteHeader(http.StatusCreated)
 		} else {
 			log.Printf("This assignment does not exist. Check the ID and try again or create a new assignment.")
 			fmt.Fprintf(w, "This assignment does not exist.")
@@ -151,7 +156,8 @@ func CreateAssignment(w http.ResponseWriter, r *http.Request) {
 		assignment.Points, _ = strconv.Atoi(r.FormValue("points"))
 		Assignments = append(Assignments, assignment)
 		w.WriteHeader(http.StatusCreated)
+	} else {
+		w.WriteHeader(http.StatusNotFound)
 	}
-	w.WriteHeader(http.StatusNotFound)
 
 }
