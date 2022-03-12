@@ -25,11 +25,9 @@ type Assignment struct {
 
 var Assignments []Assignment
 
-const Valkey string = "FooKey"
-
 func InitAssignments() {
 	var assignment Assignment
-	assignment.Id = "Mike1A"
+	assignment.Id = generateRandomID()
 	assignment.Title = "Lab 4 "
 	assignment.Description = "Some lab this guy made yesterday?"
 	assignment.Points = 20
@@ -39,7 +37,13 @@ func InitAssignments() {
 func MainPage(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Entering %s end point", r.URL.Path)
 	w.WriteHeader(http.StatusOK)
-	fmt.Fprintf(w, "Welcome to my assignment page!")
+	fmt.Fprintln(w, "Welcome to my assignments page!")
+	fmt.Fprintln(w, "")
+	//GetAssignments(w, r)
+	for _, assignment := range Assignments {
+		//fmt.Fprintln(w, "%s", assignment.Id)
+		json.NewEncoder(w).Encode(assignment.Id)
+	}
 }
 
 func APISTATUS(w http.ResponseWriter, r *http.Request) {
