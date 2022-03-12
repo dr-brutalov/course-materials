@@ -60,3 +60,9 @@ I used Thunder Client to generate these requests (similar to PostMan).
 * Status: 200 OK
 * Size: 20 Bytes
 * Time: 5 ms
+
+## Request: PUT: http://localhost:8080/assignment/Mike1A
+* **Response**: {"status":"Success"}{"status":"Success"}
+* Status: 200 OK
+* Size: 40 Bytes
+* Time: 1 ms

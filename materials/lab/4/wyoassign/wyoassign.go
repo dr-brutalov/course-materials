@@ -101,17 +101,14 @@ func DeleteAssignment(w http.ResponseWriter, r *http.Request) {
 		if assignment.Id == params["id"] {
 			Assignments = append(Assignments[:index], Assignments[index+1:]...)
 			response["status"] = "Success"
-			w.WriteHeader(http.StatusOK)
 			break
-		} else {
-
-			w.WriteHeader(http.StatusBadRequest)
 		}
 	}
 	//}
 
 	jsonResponse, err := json.Marshal(response)
 	if err != nil {
+		w.WriteHeader(http.StatusBadRequest)
 		return
 	}
 	w.Write(jsonResponse)
@@ -133,7 +130,7 @@ func UpdateAssignment(w http.ResponseWriter, r *http.Request) {
 			assignment.Description = r.FormValue("desc")
 			assignment.Points, _ = strconv.Atoi(r.FormValue("points"))
 			DeleteAssignment(w, r)
-			Assignments = append(Assignments, assignment) // Might be redundant?
+			Assignments = append(Assignments, assignment)
 			//w.WriteHeader(http.StatusCreated)
 		} else {
 			log.Printf("This assignment does not exist. Check the ID and try again or create a new assignment.")
