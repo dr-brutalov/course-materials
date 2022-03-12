@@ -4,8 +4,10 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"math/rand"
 	"net/http"
 	"strconv"
+	"time"
 
 	"github.com/gorilla/mux"
 )
@@ -125,7 +127,6 @@ func UpdateAssignment(w http.ResponseWriter, r *http.Request) {
 
 	for _, assignment := range Assignments {
 		if assignment.Id == params["id"] {
-			assignment.Id = r.FormValue("id")
 			assignment.Title = r.FormValue("title")
 			assignment.Description = r.FormValue("desc")
 			assignment.Points, _ = strconv.Atoi(r.FormValue("points"))
@@ -146,15 +147,25 @@ func CreateAssignment(w http.ResponseWriter, r *http.Request) {
 	r.ParseForm()
 	// Possible TODO: Better Error Checking!
 	// Possible TODO: Better Logging
-	if r.FormValue("id") != "" {
-		assignment.Id = r.FormValue("id")
-		assignment.Title = r.FormValue("title")
-		assignment.Description = r.FormValue("desc")
-		assignment.Points, _ = strconv.Atoi(r.FormValue("points"))
-		Assignments = append(Assignments, assignment)
-		w.WriteHeader(http.StatusCreated)
-	} else {
-		w.WriteHeader(http.StatusNotFound)
-	}
+	//if r.FormValue("id") != "" {
+	assignment.Id = generateRandomID()
+	assignment.Title = r.FormValue("title")
+	assignment.Description = r.FormValue("desc")
+	assignment.Points, _ = strconv.Atoi(r.FormValue("points"))
+	Assignments = append(Assignments, assignment)
+	w.WriteHeader(http.StatusCreated)
+	//} //else {
+	//w.WriteHeader(http.StatusNotFound)
+	//}
+
+}
+
+func generateRandomID() (id string) {
+	// Get a random seed based on the current time, converted to a int64
+	randomSeed := rand.NewSource(time.Now().UnixNano())
+	randomNumber := rand.New(randomSeed)
+	output := randomNumber.Intn(10000)
+	// Generate a random number between 0 and 9999 based on the random seed.
+	return strconv.Itoa(output)
 
 }
