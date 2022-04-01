@@ -10,12 +10,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
-//TODO_1: Logging right now just happens, create a global constant integer LOG_LEVEL
-//TODO_1: When LOG_LEVEL = 0 DO NOT LOG anything
-//TODO_1: When LOG_LEVEL = 1 LOG API details only
-//TODO_1: When LOG_LEVEL = 2 LOG API details and file matches (e.g., everything)
-
-const LOG_LEVEL = 0
+// LOG_LEVEL is defined in logger/logger.go
 
 func main() {
 
