@@ -1,7 +1,5 @@
 package main
 
-// main.go HAS FOUR TODOS - TODO_1 - TODO_4
-
 import (
 	"log"
 	"net/http"
@@ -25,7 +23,7 @@ func main() {
 
 	router.HandleFunc("/indexer", scrape.IndexFiles).Methods("GET")
 	router.HandleFunc("/search", scrape.FindFile).Methods("GET")
-	router.HandleFunc("/addsearch/{regex}", scrape.ExtendSearch).Methods("GET")
+	router.HandleFunc("/addsearch/{regex}", scrape.AddSearch).Methods("GET")
 	router.HandleFunc("/clear", scrape.ClearSearch).Methods("GET")
 	router.HandleFunc("/reset", scrape.ResetSearch).Methods("GET")
 

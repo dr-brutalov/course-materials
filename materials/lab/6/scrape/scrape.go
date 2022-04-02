@@ -10,7 +10,7 @@ import (
 //==========================================================================\\
 // || GLOBAL DATA STRUCTURES  ||
 
-//ADVANCED: This is perhaps a terrible structure since multiple a filename is NOT guarenteed to be unique; consider an array of Locations?
+//ADVANCED: This is perhaps a terrible structure since multiple a filename is NOT guaranteed to be unique; consider an array of Locations?
 //CHALLENGE: Replace this Local Structure with a Key-Value DB like REDIS
 type FileInfo struct {
 	Filename string `json:"filename"`

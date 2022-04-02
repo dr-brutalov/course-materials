@@ -1,7 +1,5 @@
 package scrape
 
-// scrapeapi.go HAS TEN TODOS - TODO_5-TODO_14 and an OPTIONAL "ADVANCED" ASK
-
 import (
 	"encoding/json"
 	"fmt"
@@ -10,14 +8,16 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"scrape/logger"
 	"strconv"
 
+	"github.com/gorilla/mux"
 	"golang.org/x/exp/slices"
 )
 
 //==========================================================================\\
 
-// Helper function walk function, modfied from Chap 7 BHG to enable passing in of
+// Helper function walk function, modified from Chap 7 BHG to enable passing in of
 // additional parameter http responsewriter; also appends items to global Files and
 // if responsewriter is passed, outputs to http
 
@@ -123,9 +123,22 @@ func MainPage(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "text/html")
 
 	w.WriteHeader(http.StatusOK)
-	fmt.Fprintf(w, "<html><body><H1>Welcome to my awesome File scraping API main page!</H1></body>")
-	fmt.Fprintln(w, "")
-	fmt.Fprintln(w, "This API does some stuff and then prints that stuff to the user. Neat")
+
+	fmt.Fprintf(w, `<html>
+        <body>
+            <H1>Welcome to my awesome File scraping API main page!</H1>
+            <p>
+                This API can be used to examine a filesystem. Neat! <br>
+                The following endpoints are can be reached: <br>
+                - /api-status ---> Check status of the API. '"ready": true' indicates the API is running properly. <br>
+                - /indexer ---> Indexes files according to the active regular expressions. 
+								As an option, pass in a query string with a regex to only search that one. <br>
+                - /search ---> Pass in a query string to search for a specific file name. <br>
+                - /addsearch/{regex} ---> Add the URL encoded regular expression to the searches. <br> 
+                - /clear ---> Clear all stored regex values. <br>
+                - /reset ---> Reset to the default regex values.
+            </p>
+        </body>`)
 
 }
 
@@ -135,10 +148,6 @@ func FindFile(w http.ResponseWriter, r *http.Request) {
 
 	w.WriteHeader(http.StatusOK)
 	if ok && len(q[0]) > 0 {
-		log.Printf("Entering search with query=%s", q[0])
-
-		// ADVANCED: Create a function in scrape.go that returns a list of file locations; call and use the result here
-		// e.g., func finder(query string) []string { ... }
 
 		var FOUND = false
 		for _, File := range Files {
@@ -152,7 +161,7 @@ func FindFile(w http.ResponseWriter, r *http.Request) {
 			w.Write([]byte(`{ "There is no file matching your query.",`))
 		}
 	} else {
-		// didn't pass in a search term, show all that you've found
+		// Did pass in a search term, show all that you've found
 		w.Write([]byte(`"files":`))
 		json.NewEncoder(w).Encode(Files)
 	}
@@ -183,7 +192,6 @@ func IndexFiles(w http.ResponseWriter, r *http.Request) {
 	//wrapper to make "nice json"
 	w.Write([]byte(`{ `))
 
-	// Looks
 	regex, regexOK := r.URL.Query()["regex"]
 	if regexOK {
 		filepath.Walk(queryPath, walkFn2(w, `(i?)`+regex[0]))
@@ -196,28 +204,30 @@ func IndexFiles(w http.ResponseWriter, r *http.Request) {
 
 }
 
-//TODO_12 create endpoint that calls resetRegEx AND *** clears the current Files found; ***
-//TODO_12 Make sure to connect the name of your function back to the reset endpoint main.go!
-
-//TODO_13 create endpoint that calls clearRegEx ;
-//TODO_12 Make sure to connect the name of your function back to the clear endpoint main.go!
-
-//TODO_14 create endpoint that calls addRegEx ;
-//TODO_12 Make sure to connect the name of your function back to the addsearch endpoint in main.go!
-// consider using the mux feature
-// params := mux.Vars(r)
-// params["regex"] should contain your string that you pass to addRegEx
-// If you try to pass in (?i) on the command line you'll likely encounter issues
-// Suggestion : prepend (?i) to the search query in this endpoint
-
-func ExtendSearch(w http.ResponseWriter, r *http.Request) {
-
+func AddSearch(w http.ResponseWriter, r *http.Request) {
+	logger.Log("Entering"+r.URL.Path+" end point", 1)
+	w.Header().Set("Content-Type", "application/json")
+	regex := mux.Vars(r)["regex"]
+	if regex != "" {
+		addRegEx("(?i)" + regex)
+	}
+	w.WriteHeader(http.StatusOK)
+	w.Write([]byte(`{"status": "ok"}`))
 }
 
 func ClearSearch(w http.ResponseWriter, r *http.Request) {
-
+	logger.Log("Entering"+r.URL.Path+" end point", 1)
+	w.Header().Set("Content-Type", "application/json")
+	clearRegEx()
+	w.WriteHeader(http.StatusOK)
+	w.Write([]byte(`{"status": "ok"}`))
 }
 
 func ResetSearch(w http.ResponseWriter, r *http.Request) {
-
+	logger.Log("Entering"+r.URL.Path+" end point", 1)
+	w.Header().Set("Content-Type", "application/json")
+	resetRegEx()
+	Files = make([]FileInfo, 0)
+	w.WriteHeader(http.StatusOK)
+	w.Write([]byte(`{"status: "ok"}`))
 }
