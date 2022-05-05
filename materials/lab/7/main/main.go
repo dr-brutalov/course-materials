@@ -1,8 +1,6 @@
 package main
 
-import (
-	"hscan/hscan"
-)
+import "hscan/hscan"
 
 func main() {
 
@@ -19,18 +17,22 @@ func main() {
 
 	//TODO Grab the file to use from the command line instead; look at previous lab (e.g., #3 ) for examples of grabbing info from command line
 	//var file = "Top304Thousand-probable-v2.txt"
-	var file = "rockyou-75.txt"
-	//var file = "wordlist.txt"
+	//var file = "rockyou-75.txt"
+	var file = "wordlist.txt"
 
 	// Single guesses
+	//*
 	hscan.GuessSingle(md5hash, file)
 	hscan.GuessSingle(sha256hash, file)
 	hscan.GuessSingle(drmike1, file)
 	hscan.GuessSingle(drmike2, file)
+	//*/
 	// Threaded guesses
-	hscan.GenHashMaps(file)
-	hscan.GetSHA(sha256hash)
-	hscan.GetMD5(md5hash)
-	hscan.GetSHA(drmike1)
-	hscan.GetMD5(drmike2)
+	/*
+		hscan.GenHashMaps(file)
+		hscan.GetSHA(sha256hash)
+		hscan.GetMD5(md5hash)
+		hscan.GetSHA(drmike1)
+		hscan.GetMD5(drmike2)
+	*/
 }
